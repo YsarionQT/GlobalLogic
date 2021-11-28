@@ -50,7 +50,7 @@ def test_calc3():
 def test_calc4():
     test_list = ["a", "a", "b", "b"]
     test_output = calc(test_list)
-    assert test_output == []
+    assert test_output == ["a","a","b","b"]
 def test_calc5():
     test_list = ["a","b","c","b","a","e","a","b","c","b","a"]
     test_output = calc(test_list)
